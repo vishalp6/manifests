@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: gcr.io/crucial-nuance-271612/microservice
   pullPolicy: IfNotPresent
-  tag: 2ccaadfdd7f9ab65de00b7829d8ba7b34ba16a11
+  tag: $(tag)
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
