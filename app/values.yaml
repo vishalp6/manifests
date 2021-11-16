@@ -8,7 +8,7 @@ image:
   repository: gcr.io/crucial-nuance-271612/microservice
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "$(tag)"
+  tag: "${GITHUB_SHA}"
 
 imagePullSecrets: []
 nameOverride: ""
